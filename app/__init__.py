@@ -1,0 +1,1 @@
+"""Recipe assistant service package."""
