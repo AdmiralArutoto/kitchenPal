@@ -84,7 +84,7 @@ docker run -e RECIPES_MONGODB_URI=... -p 8000:8000 kitchenpal
 | `RECIPES_OPENAI_BASE_URL` | `https://api.openai.com/v1` | Override for compatible OpenAI endpoints |
 | `RECIPES_OPENAI_API_KEY` | *(empty)* | Optional fallback when the `X-OpenAI-Key` header is missing |
 
-> 💡 The OpenAI key is *never* stored server-side. The frontend asks for it and sends it as the `X-OpenAI-Key` header per request.
+> NOTE: The OpenAI key is *never* stored server-side. The frontend asks for it and sends it as the `X-OpenAI-Key` header per request.
 
 ## API Overview
 
